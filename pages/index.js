@@ -45,22 +45,22 @@ export default function Home() {
                 </li>
               </ul>
             </nav>
-            <div className="text-center p-10 ">
-              <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
+            <div className="text-center p-5 ">
+              <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:text-teal-300">
                 Danny Roberts
               </h2>
               <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
                 Aspiring Web Developer
               </h3>
               <p className="text-md py-5 leading-8 text-gray=800 md:text-xl max-w-xl mx-auto dark:text-white">
-                Hi, i'm a Software Engineering graduate with a passion for all
+                Hi, I'm a Software Engineering graduate with a passion for all
                 things web. I currently have 4+ years in the software industry
-                and i'm looking to kickstart my web dev career.
+                and I'm looking to kickstart my Web Dev career.
                 <br />
-                <br /> Download my CV above, or continue reading to learn more!
+                <br /> Download my CV above, or continue reading to learn more.
               </p>
             </div>
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
+            <div className="text-5xl flex justify-center gap-8 py-3 text-gray-600 dark:text-white">
               <AiFillTwitterCircle />
               <a
                 href="https://www.linkedin.com/in/daniel-roberts315/"
@@ -69,7 +69,7 @@ export default function Home() {
                 <AiFillLinkedin />
               </a>
             </div>
-            <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 mt-20 mx-auto overflow-hidden md:h-96 md:w-96">
+            <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 mt-10 mx-auto overflow-hidden md:h-96 md:w-96">
               <Image src={me} fill objectFit="cover" />
             </div>
           </section>
@@ -77,8 +77,8 @@ export default function Home() {
           <section>
             <hr />
             <div>
-              <h3 className="text-4xl py-5 text-center text-teal-600 md:text-left dark:text-white">
-                More about me
+              <h3 className="text-3xl py-5 text-center text-teal-600 md:text-left dark:text-white">
+                More about me...
               </h3>
               {/* <p className="text-md py-1 leading-8 text-gray-800">
                 Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
@@ -96,9 +96,11 @@ export default function Home() {
                 <h3 className="text-lg font-medium  pb-2 dark:text-white">
                   Web Design
                 </h3>
-                <h4 className="py-4 text-teal-600">I have experience in:</h4>
+                <h4 className="py-4 text-teal-600 dark:text-teal-300">
+                  I have experience in:
+                </h4>
                 <p className="text-gray-800 py-1 dark:text-white">HTML & CSS</p>
-                <p className="text-gray-800 py-1 dark:text-white">Javascript</p>
+                <p className="text-gray-800 py-1 dark:text-white">JavaScript</p>
                 <p className="text-gray-800 py-1 dark:text-white">
                   React - Next.js
                 </p>
@@ -111,7 +113,7 @@ export default function Home() {
                 <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
                   Skills
                 </h3>
-                <h4 className="py-4 text-teal-600">
+                <h4 className="py-4 text-teal-600 dark:text-teal-300">
                   Other skills that I have:
                 </h4>
                 <p className="text-gray-800 py-1 dark:text-white">SQL</p>
@@ -129,7 +131,7 @@ export default function Home() {
                 <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
                   Projects
                 </h3>
-                <h4 className="py-4 text-teal-600">
+                <h4 className="py-4 text-teal-600 dark:text-teal-300">
                   Projects which I am working on:
                 </h4>
                 <p className="text-gray-800 py-1 dark:text-white">
@@ -142,10 +144,10 @@ export default function Home() {
             </div>
             <hr />
             <div>
-              <h3 className="text-4xl py-5 text-center text-teal-600 md:text-left dark:text-white">
+              <h3 className="text-3xl py-5 text-center text-teal-600 md:text-left dark:text-white">
                 Contact
               </h3>
-              <p className="text-md py-5 leading-8 text-gray=800 md:text-xl md:text-left dark:text-white">
+              <p className="text-md py-5 leading-8 text-gray=800 md:text-lg md:text-left dark:text-white">
                 To contact me, please feel free to drop me an email at{" "}
                 <a
                   href="mailto:danny.roberts315@gmail.com"
