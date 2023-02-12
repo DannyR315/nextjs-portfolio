@@ -60,11 +60,7 @@ export default function Home() {
                 <br /> Download my CV above, or continue reading to learn more.
               </p>
             </div>
-
-            <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 mt-10 mx-auto overflow-hidden md:h-96 md:w-96">
-              <Image src={me} fill objectFit="cover" />
-            </div>
-            <div className="text-5xl flex justify-center gap-8 pt-10 text-gray-600 dark:text-white">
+            <div className="text-5xl flex justify-center gap-8 py-3 text-gray-600 dark:text-white">
               <AiFillTwitterCircle />
               <a
                 href="https://www.linkedin.com/in/daniel-roberts315/"
@@ -72,6 +68,9 @@ export default function Home() {
               >
                 <AiFillLinkedin />
               </a>
+            </div>
+            <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 mt-10 mx-auto overflow-hidden md:h-96 md:w-96">
+              <Image src={me} fill objectFit="cover" />
             </div>
           </section>
 
