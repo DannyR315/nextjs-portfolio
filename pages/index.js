@@ -118,7 +118,7 @@ export default function Home() {
                 </h4>
                 <p className="text-gray-800 py-1 dark:text-white">SQL</p>
                 <p className="text-gray-800 py-1 dark:text-white">
-                  OOP Programming
+                  OOP Programming knowledge
                 </p>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-600 md:w-96">
@@ -138,7 +138,10 @@ export default function Home() {
                   This website!
                 </p>
                 <p className="text-gray-800 py-1 dark:text-white">
-                  Meal planning react.js app
+                  Meal planning react app
+                </p>
+                <p className="text-gray-800 py-1 dark:text-white">
+                  Workout tracking react app
                 </p>
               </div>
             </div>
